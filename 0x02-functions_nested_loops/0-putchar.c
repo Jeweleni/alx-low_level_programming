@@ -1,9 +1,10 @@
 #include "main.h"
-	/**
-	 * main - Entry point of code
-	 * is written by Jewel
-	 * Return: Always 0
-	 */
+/**
+* main - Entry point of code
+* is written by Jewel
+* Return: Always 0
+*/
+	
 	int main(void)
 	{
 	_putchar('_');
