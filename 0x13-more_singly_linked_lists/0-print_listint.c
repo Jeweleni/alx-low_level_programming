@@ -1,5 +1,3 @@
-#include <stddef.h> // For size_t
-#include <stdio.h> // For printf
 #include "lists.h" // Include your header file containing struct and prototype
 
 /**
