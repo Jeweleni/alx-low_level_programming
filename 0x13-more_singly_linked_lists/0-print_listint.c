@@ -10,12 +10,12 @@ size_t print_listint(const listint_t *h)
     size_t count = 0; // Initialize a counter for nodes
 
     // Traverse the linked list
-    while (h != NULL)
+    while (h)
     {
         printf("%d\n", h->n); // Print the value of the current node
         h = h->next; // Move to the next node
         count++; // Increment the node count
     }
 
-    return count; // Return the number of nodes
+    return (count); // Return the number of nodes
 }
