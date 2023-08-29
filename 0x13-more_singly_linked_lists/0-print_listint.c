@@ -1,20 +1,20 @@
-#include "lists.h" // Include your header file containing struct and prototype
+#include "lists.h" // Including the header file containing struct and prototype
 
 /**
- * print_listint - Prints all the elements of a listint_t list.
- * @h: Pointer to the head of the list.
+ * print_listint - Prints all the elements of a linked list.
+ * @h: linked list of type listint_t to print
  * Return: Number of nodes.
  */
 size_t print_listint(const listint_t *h)
 {
-    size_t num = 0; // Initialize a counter for nodes
+    size_t num = 0; // Initializing a counter for nodes
 
-// Traverse the linked list
+// Traversed the linked list
     while (h)
     {
         printf("%d\n", h->n); // Print the value of the current node
         num++; // Increment the node count
-        h = h->next; // Move to the next node
+        h = h->next;
     }
 
     return (num); // Return the number of nodes
