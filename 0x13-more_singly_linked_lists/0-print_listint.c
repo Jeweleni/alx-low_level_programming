@@ -1,4 +1,4 @@
-#include "lists.h"
+#include "lists.h" // Include your header file containing struct and prototype
 
 /**
  * print_listint - prints all the elements of a linked list
