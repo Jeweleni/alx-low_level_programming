@@ -8,7 +8,7 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	size_t num = 0;
+	size_t num = 0; // Initialize a counter for elements
 
 	while (h)
 	{
@@ -16,5 +16,5 @@ size_t listint_len(const listint_t *h)
 		h = h->next;
 	}
 
-	return (num);
+	return (num); // Return the number of elements
 }
