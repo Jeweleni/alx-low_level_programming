@@ -9,7 +9,6 @@ size_t print_listint(const listint_t *h)
 {
     size_t num = 0; // Initializing a counter for nodes
 
-// Traversed the linked list
     while (h)
     {
         printf("%d\n", h->n); // Print the value of the current node

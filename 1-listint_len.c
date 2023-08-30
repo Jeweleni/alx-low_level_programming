@@ -1,4 +1,3 @@
-#include <stddef.h> // For size_t
 #include "lists.h" // Include your header file containing struct and prototype
 
 /**
@@ -8,14 +7,13 @@
  */
 size_t listint_len(const listint_t *h)
 {
-    size_t count = 0; // Initialize a counter for elements
+    size_t num = 0; // Initialize a counter for elements
 
-    // Traverse the linked list
     while (h)
     {
+        num++; // Increment the element count
         h = h->next; // Move to the next node
-        count++; // Increment the element count
     }
 
-    return (count); // Return the number of elements
+    return (num); // Return the number of elements
 }
