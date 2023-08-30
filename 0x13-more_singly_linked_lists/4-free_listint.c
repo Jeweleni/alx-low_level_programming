@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * free_listint - frees a linked list
+ * free_listint - frees a linked list //4add_nodeint_end.c
  * @head: listint_t list to be freed
  */
 void free_listint(listint_t *head)
 {
-	listint_t *temp; //4add_nodeint_end.c
+	listint_t *temp;
 
 	while (head)
 	{
