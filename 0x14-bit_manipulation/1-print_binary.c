@@ -6,6 +6,9 @@
  */
 void print_binary(unsigned long int n)
 {
+    int i, count = 0;
+	unsigned long int current;
+
     if (n > 1)
         print_binary(n >> 1);
 
